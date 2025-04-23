@@ -10,12 +10,22 @@
  if (tent1 == numSorteado) {
      alert(`Parabéns, você acertou! O numero sorteado é ${numSorteado}`);
  } else {
- 
+        if (tent1<=numSorteado){
+            alert("Digite um número menor")
+        }else{
+            alert("Digite um número maior")
+        }
      let tent2 = parseInt(prompt("Você so tem mais duas tentativas! Digite outro número entre 1 a 10"));
      if (tent2 == numSorteado) {
          alert(`Parabéns, você acertou! O numero sorteado é ${numSorteado}`);
  
      } else {
+
+            if (tent2<=numSorteado){
+                alert("Digite um número menor")
+            }else{
+                alert("Digite um número maior")
+            }
  
          let tent3 = parseInt(prompt("Você só tem mais uma tentativas! Digite um numero entre 1 a 10"));
          if (tent3 == numSorteado) {
